@@ -1,4 +1,4 @@
-# Zoostr logo — the Z-Spark
+# Zoostr logo — gradient squircle, Z-bolt cut
 
 Logo entry for Zoostr, the Creator Hearth on Sparkz, for poidh bounty
 [#1568](https://poidh.xyz/base/bounty/1568).
@@ -7,34 +7,29 @@ Logo entry for Zoostr, the Creator Hearth on Sparkz, for poidh bounty
 
 ## The idea
 
-Zoostr starts with a Z, and a Hearth grows with Sparks — so the mark is a
-**Z whose diagonal is a lightning bolt**:
+An app-icon squircle filled with Sparkz's own gradient — purple `#C084FC`
+→ amber `#FBBF24` → hearth orange `#F97316` — with a dark **Z cut through
+it**. The Z's diagonal is a lightning bolt: the Spark that grows the
+Hearth. A lowercase `zoostr` wordmark sits under the tile.
 
-- Two bone-white bars form the top and bottom of the Z.
-- The diagonal is a single amber bolt (Sparkz amber `#FBBF24` → hearth-fire
-  orange `#F97316`): the Spark that grows the Hearth.
-- One purple spark star (`#C084FC`, the other Sparkz brand colour) sits at
-  the top-right terminal — the first spark the hearth gives off.
-
-Flat geometry, no effects: it reads at favicon size and at billboard size,
-and it is built to sit on dark backgrounds, per the brief.
+Flat vector geometry, no effects: it reads at favicon size and at
+billboard size, and it is built to sit on dark backgrounds, per the brief.
 
 ## Files
 
 | File | What |
 | --- | --- |
-| `zoostr-logo.svg` | Full lockup (mark + wordmark), pure vector |
+| `zoostr-logo.svg` | Full lockup (tile + wordmark), pure vector |
 | `zoostr-logo-1024.png` | The same lockup, square 1024×1024 PNG |
-| `zoostr-mark.svg` | Mark only, pure vector |
-| `zoostr-mark-1024.png` | Mark only, square 1024×1024 PNG |
+| `zoostr-mark.svg` | Tile mark only, pure vector |
+| `zoostr-mark-1024.png` | Tile mark only, square 1024×1024 PNG |
 
 ## Colours
 
-- Background `#0D0C0A` (warm near-black)
-- Bone `#F4EEE2`
-- Amber gradient `#FFD23E` → `#FBBF24` → `#F97316`
-- Spark purple `#C084FC`
-- Muted subline `#A79E88`
+- Background `#0A0A0C`
+- Gradient `#C084FC` → `#FBBF24` → `#F97316`
+- Z knockout `#14110B`
+- Wordmark `#F5F2EA`, subline `#8E8B85`
 
 ## Note
 

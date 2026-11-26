@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FBBF24"/>
+      <stop offset="0.55" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#F97316" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="#0A0A0C"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <path d="M 372 306 H 652 L 372 538 H 652" fill="none" stroke="url(#grad)" stroke-width="86" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M706 176 L716 210 L750 220 L716 230 L706 264 L696 230 L662 220 L696 210 Z" fill="#C084FC"/>
+  <text x="512" y="838" text-anchor="middle" font-family="Arial, Liberation Sans, sans-serif" font-size="128" font-weight="900" letter-spacing="-1" fill="#F5F2EA">zoostr</text>
+  <text x="512" y="898" text-anchor="middle" font-family="Arial, Liberation Sans, sans-serif" font-size="30" font-weight="700" letter-spacing="9" fill="#8E8B85">CREATOR HEARTH · ON SPARKZ</text>
+</svg>

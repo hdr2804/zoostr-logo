@@ -1,16 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
   <defs>
-    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFD23E"/>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C084FC"/>
       <stop offset="0.55" stop-color="#FBBF24"/>
       <stop offset="1" stop-color="#F97316"/>
     </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#C084FC" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#C084FC" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect x="0" y="0" width="1024" height="1024" fill="#0D0C0A"/>
-  <g transform="translate(0 226)">
-    <rect x="312" y="212" width="400" height="92" rx="8" fill="#F4EEE2"/>
-    <rect x="312" y="440" width="400" height="92" rx="8" fill="#F4EEE2"/>
-    <polygon fill="url(#spark)" points="700,298 540,372 612,382 470,450 330,450 486,366 408,356 560,298"/>
+  <rect width="1024" height="1024" fill="#0A0A0C"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <rect x="272" y="272" width="480" height="480" rx="118" fill="url(#grad)"/>
+  <g fill="#14110B">
+    <rect x="372" y="392" width="280" height="62" rx="10"/>
+    <rect x="372" y="570" width="280" height="62" rx="10"/>
+    <polygon points="640,448 505,512 560,520 445,576 372,576 492,498 440,490 572,448"/>
   </g>
-  <path transform="translate(0 226)" d="M764 148 L776 188 L816 200 L776 212 L764 252 L752 212 L712 200 L752 188 Z" fill="#C084FC"/>
 </svg>
